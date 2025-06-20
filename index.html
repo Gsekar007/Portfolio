@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gowtham's Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #f7f9fb;
+      color: #333;
+    }
+    header {
+      background-color: #510b4a;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 { margin: 0; font-size: 2.5rem; }
+    header p { font-size: 1.1rem; }
+
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+
+    .project {
+      background: white;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .project h3 { margin-top: 0; }
+
+    .skills ul {
+      list-style: none;
+      padding-left: 0;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .skills li {
+      background: #e0e0e0;
+      margin: 5px;
+      padding: 8px 12px;
+      border-radius: 4px;
+    }
+
+    .contact a {
+      color: #0b3d91;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Gowtham S</h1>
+    <p>Android Developer | Kotlin Enthusiast</p>
+  </header>
+
+  <section class="about">
+    <h2>About Me</h2>
+    <p>
+      I’m a passionate Android developer with a focus on building clean and intuitive mobile apps. 
+      I strive to make the experience of using the mobile applications better, and thrive in the progress.
+      I like to find problems which troubles most people and try to fix or make it better with the applications I develop.
+    </p>
+  </section>
+
+  <section class="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Android Studio</li>
+      <li>Kotlin</li>
+      <li>Java</li>
+      <li>Jetpack Compose</li>
+      <li>Room Database</li>
+      <li>MVVM Architecture</li>
+      <li>Python</li>
+      <li>REST APIs</li>
+      <li>Firebase</li>
+    </ul>
+  </section>
+
+  <section class="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+      <h3>🩸 Blood Bank App</h3>
+      <p>
+        A mobile application for connecting blood donors and recipients. Users can register as donors, request blood, and search based on blood groups and location.
+      </p>
+      <p><strong>Tech Used:</strong> Java, Firebase Realtime Database, XML, Location Services</p>
+      <p><a href="https://github.com/Gsekar007/Blood-Bank.git" target="_blank">🔗 View on GitHub</a></p>
+    </div>
+
+    <div class="project">
+      <h3>📚 Book Finder App</h3>
+      <p>
+        An app that allows users to search for books using the Google Books API. Displays title, author, cover, and description with a responsive interface.
+      </p>
+      <p><strong>Tech Used:</strong> Kotlin, Retrofit, RecyclerView, Google Books API</p>
+      <p><a href="https://github.com/Gsekar007/Find-Books.git" target="_blank">🔗 View on GitHub</a></p>
+    </div>
+
+    <div class="project">
+      <h3>🏋️ Workout Logger</h3>
+      <p>
+        A fitness tracking app where users can log their workouts, sets, reps, and track progress. Optional graphing using MPAndroidChart for visual stats.
+      </p>
+      <p><strong>Tech Used:</strong> Kotlin, Room DB, MVVM, SharedPreferences</p>
+      <p><a href="https://github.com/Gsekar007/Workout-logger.git" target="_blank">🔗 View on GitHub</a></p>
+    </div>
+
+  </section>
+
+  <section class="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:gowthamsekar2200@gmail.com">gowthamsekar2200@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/Gsekar007" target="_blank">https://github.com/Gsekar007</a></p>
+  </section>
+
+</body>
+</html>
